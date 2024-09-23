@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: black; /* Hintergrundfarbe */
+        }
+        #score {
+            font-family: Helvetica, sans-serif; /* Schriftart */
+            font-size: 20px; /* Schriftgröße */
+            color: white; /* Schriftfarbe */
+            margin: 10px; /* Abstand */
+            text-align: center; /* Text zentrieren */
+        }
+        #my-canvas {
+            border: 1px solid white; /* Optional: Rahmen für das Canvas */
+        }
+    </style>
+  </head>
+  <body>
+    <div id="score">Score: 0</div>
+    <canvas id="my-canvas"></canvas>
+    <script src="game.js" type="module"></script>
+  </body>
+</html>
